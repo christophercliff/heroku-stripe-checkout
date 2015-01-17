@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "heroku-stripe-checkout",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/heroku-stripe-checkout"
+  },
+  "scripts": {
+    "start": "node ./",
+    "style": "./node_modules/.bin/crispy ./lib/ ./test/",
+    "test": "npm run style && ./node_modules/.bin/mocha --reporter spec -r should --grep ''"
+  },
+  "main": "./lib/start",
+  "dependencies": {
+    "bluebird": "^2.5.3",
+    "dotenv": "^0.4.0",
+    "hapi": "^8.1.0",
+    "hapi-nudge": "^1.1.1",
+    "joi": "^5.1.0",
+    "lodash": "^2.4.1",
+    "once": "^1.3.1",
+    "raven": "^0.7.2",
+    "stripe": "^3.0.3"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "crispy": "^3.1.1",
+    "handlebars": "^2.0.0",
+    "mocha": "^2.1.0",
+    "should": "^4.4.2",
+    "wreck": "^5.1.0"
+  }
+}

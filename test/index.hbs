@@ -1,0 +1,13 @@
+<form action="{{ url }}" method="POST">
+    <script
+        src="https://checkout.stripe.com/checkout.js"
+        class="stripe-button"
+        data-key="{{ stripe_publishable_key }}"
+        data-name="heroku-stripe-checkout test"
+        data-description="{{ description }}"
+        data-amount="{{ amount }}"
+    ></script>
+    <input name="amount" value="{{ amount }}" type="hidden">
+    <input name="description" value="{{ description }}" type="hidden">
+    <input name="metadata" value="{{ metadata }}" type="hidden">
+</form>
