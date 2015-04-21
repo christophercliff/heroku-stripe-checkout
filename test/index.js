@@ -80,9 +80,4 @@ describe('the server', function () {
         })
     })
 
-    it('should handle manually submitted form', function (done) {
-        // TODO: Figure out how to submit form w/ PhantomJS
-        return done()
-    })
-
 })
