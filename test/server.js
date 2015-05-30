@@ -19,7 +19,7 @@ var METADATA = {
 }
 var PORT = 3001
 var TEMPLATE = fs.readFileSync(path.resolve(__dirname, './index.hbs'), 'utf8')
-var URL = [
+var _URL = [
     chargeServer.info.uri,
     chargeServer.app.PATHNAME,
 ].join('')
@@ -38,7 +38,7 @@ _.extend(server.app, {
     CARD_NUMBER: CARD_NUMBER,
     DESCRIPTION: DESCRIPTION,
     METADATA: METADATA,
-    URL: URL,
+    URL: _URL,
 })
 
 server.connection({
@@ -55,7 +55,7 @@ server.route({
                 description: DESCRIPTION,
                 metadata: JSON.stringify(METADATA),
                 stripe_publishable_key: config.stripePublishableKey,
-                url: URL,
+                url: _URL,
             }))
         },
     },

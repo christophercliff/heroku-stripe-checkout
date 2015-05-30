@@ -1,6 +1,9 @@
 {
   "private": true,
   "name": "heroku-stripe-checkout",
+  "engines": {
+    "node": "0.10.x"
+  },
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -13,22 +16,21 @@
   },
   "main": "./lib/start",
   "dependencies": {
-    "bluebird": "^2.5.3",
-    "dotenv": "^0.4.0",
-    "hapi": "^8.1.0",
+    "bluebird": "^2.9.26",
+    "dotenv": "^1.1.0",
+    "hapi": "^8.5.3",
     "hapi-nudge": "^1.1.1",
-    "joi": "^5.1.0",
-    "lodash": "^2.4.1",
-    "once": "^1.3.1",
-    "raven": "^0.7.2",
-    "stripe": "^3.0.3"
+    "joi": "^6.4.3",
+    "lodash": "^3.9.3",
+    "once": "^1.3.2",
+    "stripe": "^3.3.4"
   },
   "devDependencies": {
-    "async": "^0.9.0",
-    "crispy": "^3.1.1",
-    "handlebars": "^2.0.0",
-    "mocha": "^2.1.0",
-    "should": "^4.4.2",
-    "wreck": "^5.1.0"
+    "async": "^1.0.0",
+    "crispy": "^3.2.0",
+    "handlebars": "^3.0.3",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3",
+    "wreck": "^5.5.1"
   }
 }
