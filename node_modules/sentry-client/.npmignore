@@ -1,0 +1,4 @@
+.env
+/node_modules/
+/test/fixtures/*/build/
+/test/fixtures/*/src/
