@@ -1,3 +1,9 @@
+---
+
+### Deprecated. Use [Flatmarket](https://json.expert/flatmarket/) instead.
+
+---
+
 # heroku-stripe-checkout
 
 A self-hosted service for accepting payments with [Stripe Checkout](https://stripe.com/docs/checkout).
