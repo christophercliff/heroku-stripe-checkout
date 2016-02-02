@@ -1,6 +1,6 @@
 ---
 
-### Deprecated. Use [Flatmarket](https://json.expert/flatmarket/) instead.
+# :fire::fire::fire: Deprecated. Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku) instead. :fire::fire::fire:
 
 ---
 
