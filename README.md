@@ -1,6 +1,8 @@
 ---
 
-# :fire::fire::fire: Deprecated. Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku) instead. :fire::fire::fire:
+# :fire::fire::fire: DEPRECATED :fire::fire::fire:
+
+Use [flatmarket-server-heroku](https://github.com/christophercliff/flatmarket-server-heroku). 
 
 ---
 
